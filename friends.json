@@ -1,0 +1,156 @@
+{"graph":[
+  {
+    "id": "7727585",
+    "name": "Mark",
+    "color": "DarkOrange",
+    "edges": [
+      {
+        "name": "John",
+        "id": "7727586"
+      },
+      {
+        "name": "Sally",
+        "id": "7727587"
+      },
+      {
+        "name": "Kate",
+        "id": "7727588"
+      }
+    ]
+  },
+  {
+    "id": "7727587",
+    "name": "Sally",
+    "radius": "15",
+    "edges": [
+      {
+        "name": "Mark",
+        "id": "7727585"
+      },
+      {
+        "name": "John",
+        "id": "7727586"
+      }
+    ]
+  },
+  {
+    "id": "7727586",
+    "name": "John",
+    "radius": "15",
+    "color": "CornflowerBlue",
+    "edges": [
+      {
+        "name": "Mark",
+        "id": "7727585"
+      },
+      {
+        "name": "Sally",
+        "id": "7727587"
+      }
+    ]
+  },
+  {
+    "id": "7727588",
+    "name": "Kate",
+    "radius": "12",
+    "color": "green",
+    "edges": [
+      {
+        "name": "Mark",
+        "id": "7727585"
+      }
+    ]
+  },
+  {
+    "id": "7727599",
+    "name": "Sam",
+    "radius": "12",
+    "color": "OrangeRed",
+    "edges": [
+      {
+        "name": "Sally",
+        "id": "7727587"
+      }
+    ]
+  },
+  {
+    "id": "8727585",
+    "name": "Bob",
+    "radius": "20",
+    "color": "DarkOrange",
+    "edges": [
+      {
+        "name": "Nick",
+        "id": "8727586"
+      },
+      {
+        "name": "Jane",
+        "id": "8727587"
+      },
+      {
+        "name": "Lory",
+        "id": "8727588"
+      }
+    ]
+  },
+  {
+    "id": "8727587",
+    "name": "Jane",
+    "radius": "15",
+    "color": "CornflowerBlue",
+    "edges": [
+      {
+        "name": "Bob",
+        "id": "8727585"
+      },
+      {
+        "name": "Nick",
+        "id": "8727586"
+      }
+    ]
+  },
+  {
+    "id": "8727586",
+    "name": "Nick",
+    "radius": "15",
+    "color": "CornflowerBlue",
+    "edges": [
+      {
+        "name": "Bob",
+        "id": "8727585"
+      },
+      {
+        "name": "Jane",
+        "id": "8727587"
+      }
+    ]
+  },
+  {
+    "id": "8727588",
+    "name": "Lory",
+    "radius": "12",
+    "color": "OrangeRed",
+    "edges": [
+      {
+        "name": "Bob",
+        "id": "8727585"
+      }
+    ]
+  },
+  {
+    "id": "8727599",
+    "name": "Kenny",
+    "radius": "12",
+    "color": "green",
+    "edges": [
+      {
+        "name": "Jane",
+        "id": "8727587"
+      },
+      {
+        "name": "Kate",
+        "id": "7727588"
+      }
+    ]
+  }
+]}

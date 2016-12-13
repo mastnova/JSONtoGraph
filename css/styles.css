@@ -1,0 +1,73 @@
+svg {
+  width: 100%;
+  border: none;
+}
+
+form {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  height: 28px;
+  border: 2px solid #337ab7;
+  border-radius: 3px;
+  outline: none;
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+button {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  isplay: inline-block;
+  padding: 6px 42px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+button:active:hover {
+  background-color: #204d74;
+  border-color: #122b40;
+}
+
+.svg-wrapper {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  margin-top: 155px;
+  margin-left: -35px;
+  font-size: 12px;
+  z-index: 300;
+  border: 1px black solid;
+  background: greenYellow;
+  padding: 0 2px 0;
+  pointer-events: none;
+}
